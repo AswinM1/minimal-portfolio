@@ -1,12 +1,15 @@
 import Navbar from "@/comp/Navbar";
 import Image from "next/image";
 import Home from "@/comp/Home";
+import Skills from "@/comp/Skills";
+import Container from '../comp/container'
+
 
 export default function Homef() {
   return (
-    <div className="flex max-w-xl h-screen justify-center items-center mx-auto ">
-    
-      <Home></Home>
+    <div>
+      
+      <Container></Container>
       
     </div>
   );
