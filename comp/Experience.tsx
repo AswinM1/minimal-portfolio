@@ -34,7 +34,7 @@ function Experince() {
 
   return (
     <div className='max-w-2xl px-4 py-10'> 
-         <p className="font-sans tracking-tight font-semibold text-lg ">
+         <p className="font-sans tracking-tight font-semibold text-lg text-[#ffdb89] ">
    Experience
         </p>
       {/* interm */}

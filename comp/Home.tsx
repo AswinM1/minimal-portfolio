@@ -5,6 +5,9 @@ import { BsGithub, BsLinkedin, BsTwitterX } from 'react-icons/bs'
 import Experince from './Experience'
 import { motion } from 'framer-motion'
 import Skills from './Skills'
+import Github from './Github'
+import img1 from '../comp/images/bg.jpg'
+import Image from 'next/image';
 
 function Home() {
   const Links = [
@@ -52,10 +55,13 @@ function Home() {
       className='max-w-xl   px-4 py-5  h-screen '
     >
       <div className='w-full h-screen flex flex-col'>
-        <p className='py-6 px-4 text-xl font-semibold font-sans'>Aswin</p>
+      
+        <p className='py-6 px-4 text-xl font-semibold font-sans text-[#ffdb89]'>
+          <div className='flex flex-col'> Hello, Iam Aswin 
+            <p className='font-mono text-xs text-neutral-300'>Full stack  developer</p></div></p>
 
-        <div className='max-w-2xl px-4 text-sm text-neutral-400 font-sans leading-relaxed'>
-          Hello I am Aswin, I am a tech enthusiast and I love building user centric applications.
+        <div className='max-w-2xl px-4 text-sm text-neutral-500 font-sans leading-relaxed'>
+          Hello I am a tech enthusiast and I love building user centric applications.
           With experience in Technologies I thrive to Build Scalable applications.
         </div>
 
@@ -76,6 +82,9 @@ function Home() {
           ))}
         </div>
   <Skills></Skills>
+  <Experince></Experince>
+  
+  
   
        
       </div>

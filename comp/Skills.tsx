@@ -11,7 +11,7 @@ function Skills() {
        
 
         <div className='max-w-2xl py-4 font-medium font-sans px-4'>
-          <p className='py-4 font-sans font-semibold'>Skills</p>
+          <p className='py-4 font-sans font-semibold text-[#ffdb89] text-xl'>Skills</p>
           Frontend
           <div className='flex flex-wrap gap-2 font-light mt-2'>
             {list.map((val, idx) => (
@@ -38,7 +38,7 @@ function Skills() {
         </div>
 
         <div>
-          <Experince />
+          
           
         </div>
     </div>

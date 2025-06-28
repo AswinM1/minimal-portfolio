@@ -92,7 +92,7 @@ const Projects = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.h2 className="text-xl mb-5 justify-start flex w-full text-black dark:text-white font-medium tracking-tight font-sans" variants={child}>
+      <motion.h2 className="text-xl mb-5 justify-start flex w-full text-[#ffdb89]  font-medium tracking-tight font-sans" variants={child}>
         Projects
       </motion.h2>
       <motion.p className="font-sans text-neutral-400 dark:text-neutral-400 mb-6 tracking-tight" variants={child}>
