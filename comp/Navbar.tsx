@@ -12,7 +12,7 @@ function Navbar() {
   ]
 
   return (
-   <div className=' max-w-2xl w-full px-4 py-5 border-b  border-[#ffdb89] flex items-center justify-center mx-auto font-mono   backdrop-blur-2xl bg-[#121212]'>
+   <div className=' max-w-2xl w-full px-4 py-5 flex items-center justify-center mx-auto font-mono   backdrop-blur-2xl bg-[#121212]'>
       <div className='flex gap-2 justify-between items-center mx-auto  cursor-pointer py-2 '>
         {items.map((val, idx) =>
           path === val.path ? (

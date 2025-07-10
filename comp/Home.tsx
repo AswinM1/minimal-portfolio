@@ -56,9 +56,9 @@ function Home() {
     >
       <div className='w-full h-screen flex flex-col'>
       
-        <p className='py-6 px-4 text-xl font-semibold font-sans text-[#ffdb89]'>
+        <div className='py-6 px-4 text-xl font-semibold font-sans text-[#ffdb89]'>
           <div className='flex flex-col'> Hello, Iam Aswin 
-            <p className='font-mono text-xs text-neutral-300'>Full stack  developer</p></div></p>
+            <p className='font-mono text-xs text-neutral-300'>Full stack  developer</p></div></div>
 
         <div className='max-w-2xl px-4 text-sm text-neutral-500 font-sans leading-relaxed'>
           Hello I am a tech enthusiast and I love building user centric applications.

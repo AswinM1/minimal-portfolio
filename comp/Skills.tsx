@@ -26,6 +26,7 @@ function Skills() {
               <div key={idx} className='px-2 py-1 bg-neutral-800 rounded text-xs'>{val}</div>
             ))}
           </div>
+          
         </div>
 
         <div className='max-w-4xl py-4 font-medium font-sans px-4'>
