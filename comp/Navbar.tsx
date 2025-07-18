@@ -6,17 +6,18 @@ import React from 'react'
 function Navbar() {
   const path = usePathname()
   const items = [
-    { name: "about", path: "/" },
-    { name: "projects", path: "/projects" },
-    { name: "blogs", path: "/blogs" }
+    { name: "About", path: "/" },
+    { name: "Projects", path: "/projects" },
+ 
+  
   ]
 
   return (
-   <div className=' max-w-2xl w-full px-4 py-5 flex items-center justify-center mx-auto font-mono   backdrop-blur-2xl bg-[#121212]'>
-      <div className='flex gap-2 justify-between items-center mx-auto  cursor-pointer py-2 '>
+   <div className='w-full px-4 py-5  fixed flex items-center justify-center mx-auto font-sans  z-5  backdrop-blur-2xl bg-transparent mb-10'>
+      <div className='flex gap-6 justify-between items-center mx-auto font-medium cursor-pointer py-2 '>
         {items.map((val, idx) =>
           path === val.path ? (
-            <div key={val.path} className='text-[#ffdb89] underline'>
+            <div key={val.path} className='text-[#ffdb89] '>
               {val.name}
             </div>
           ) : (

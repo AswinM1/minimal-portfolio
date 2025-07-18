@@ -54,15 +54,14 @@ function Home() {
       transition={{ duration: 0.8, ease: 'easeOut' }}
       className='max-w-xl   px-4 py-5  h-screen '
     >
-      <div className='w-full h-screen flex flex-col'>
+      <div className='w-full h-screen flex flex-col mt-10'>
       
-        <div className='py-6 px-4 text-xl font-semibold font-sans text-[#ffdb89]'>
-          <div className='flex flex-col'> Hello, Iam Aswin 
-            <p className='font-mono text-xs text-neutral-300'>Full stack  developer</p></div></div>
+        <div className='py-6 px-4 text-xl font-bold font-sans text-[#ffdb89]'>
+          <div className='flex flex-col mx-auto '> Aswin 
+            <p className='font-sans tracking-tight text-sm text-neutral-300 '>Full stack developer</p></div></div>
 
-        <div className='max-w-2xl px-4 text-sm text-neutral-500 font-sans leading-relaxed'>
-          Hello I am a tech enthusiast and I love building user centric applications.
-          With experience in Technologies I thrive to Build Scalable applications.
+        <div className='max-w-2xl px-4 text-md text-neutral-300 font-sans leading-relaxed'>
+           I can convert design to beautiful websites with scalable backends and eye catching UI.
         </div>
 
         <div className='flex flex-wrap gap-2 items-center justify-center py-5 px-4'>
@@ -74,7 +73,7 @@ function Home() {
               rel="noopener noreferrer"
               className="flex"
             >
-              <span className="flex gap-2 border border-neutral-700 rounded-sm items-center justify-between font-sans text-[12px] py-1 px-2 hover:bg-neutral-800 transition-all">
+              <span className="flex gap-2 border border-neutral-700 bg-neutral-800 rounded-sm items-center justify-between font-sans text-[12px] py-1 px-2 hover:bg-neutral-800 transition-all">
                 {link.icon}
                 {link.name}
               </span>
